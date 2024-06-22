@@ -1,0 +1,92 @@
+<resumes>
+    <!-- English Version -->
+    <resume lang="en">
+        <personal>
+            <name>Elias ALICHE</name>
+            <email>je@partage.pas</email>
+            <phone>+33142928100</phone>
+            <address>55 Rue du Faubourg Saint-Honoré 75008 Paris France</address>
+        </personal>
+        <experience>
+            <job>
+                <title>Kangaroo Breeder</title>
+                <company>Kangaroos &amp; Co.</company>
+                <years>2019-2025</years>
+                <description>Imaginary Professional Boxer</description>
+            </job>
+        </experience>
+        <education>
+            <degree>
+                <title>Bachelor in Australian Boxing</title>
+                <institution>University of Non-Violent Boxing, Canberra</institution>
+                <years>2017-2019</years>
+            </degree>
+        </education>
+        <skills>
+            <skill>Non-Violent Boxing</skill>
+            <skill>Violent Boxing</skill>
+            <skill>KFC Nugget Boxing</skill>
+            <skill>Freebox Repair</skill>
+        </skills>
+    </resume>
+    <!-- French Version -->
+    <resume lang="fr">
+        <personal>
+            <name>Elias ALICHE</name>
+            <email>je@partage.pas</email>
+            <phone>+33142928100</phone>
+            <address>55 Rue du Faubourg Saint-Honoré 75008 Paris France</address>
+        </personal>
+        <experience>
+            <job>
+                <title>Eleveur de kangourous</title>
+                <company>Kangaroos &amp; Co.</company>
+                <years>2019-2025</years>
+                <description>Boxeur professionnel imaginaire</description>
+            </job>
+        </experience>
+        <education>
+            <degree>
+                <title>Licence en boxe australienne</title>
+                <institution>Université de boxe non-violente de Canberra</institution>
+                <years>2017-2019</years>
+            </degree>
+        </education>
+        <skills>
+            <skill>Boxe non-violente</skill>
+            <skill>Boxe violente</skill>
+            <skill>Box de nuggets de KFC</skill>
+            <skill>Réparation de Freebox</skill>
+        </skills>
+    </resume>
+    <!-- Traditional Chinese Version -->
+    <resume lang="zh">
+        <personal>
+            <name>埃利亞斯·阿利切</name>
+            <email>je@partage.pas</email>
+            <phone>+33142928100</phone>
+            <address>法國巴黎榮譽勳章大街55號75008</address>
+        </personal>
+        <experience>
+            <job>
+                <title>袋鼠飼養員</title>
+                <company>袋鼠與合夥人公司</company>
+                <years>2019-2025</years>
+                <description>想像中的職業拳擊手</description>
+            </job>
+        </experience>
+        <education>
+            <degree>
+                <title>澳洲拳擊學士</title>
+                <institution>堪培拉非暴力拳擊大學</institution>
+                <years>2017-2019</years>
+            </degree>
+        </education>
+        <skills>
+            <skill>非暴力拳擊</skill>
+            <skill>暴力拳擊</skill>
+            <skill>KFC雞塊盒</skill>
+            <skill>Freebox修理</skill>
+        </skills>
+    </resume>
+</resumes>

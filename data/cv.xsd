@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="resume">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="personal" type="personalType"/>
+                <xs:element name="experience" type="experienceType"/>
+                <xs:element name="education" type="educationType"/>
+                <xs:element name="skills" type="skillsType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="personalType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="email" type="xs:string"/>
+            <xs:element name="phone" type="xs:string"/>
+            <xs:element name="address" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="experienceType">
+        <xs:sequence>
+            <xs:element name="job" maxOccurs="unbounded" type="jobType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="jobType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="company" type="xs:string"/>
+            <xs:element name="years" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="educationType">
+        <xs:sequence>
+            <xs:element name="degree" maxOccurs="unbounded" type="degreeType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="degreeType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="institution" type="xs:string"/>
+            <xs:element name="years" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="skillsType">
+        <xs:sequence>
+            <xs:element name="skill" maxOccurs="unbounded" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
