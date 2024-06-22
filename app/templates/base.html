@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="schema: http://schema.org/">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="?lang=fr"><img src="{{ url_for('static', filename='img/fr.png') }}" alt="Français"></a> 
+        <a href="?lang=en"><img src="{{ url_for('static', filename='img/en.png') }}" alt="English"></a>
+        <a href="?lang=zh"><img src="{{ url_for('static', filename='img/zh.png') }}" alt="中文 (繁體)"></a>
+    </div>
+    <div class="container" vocab="http://schema.org/" typeof="Person" about="#person">
+        {% block content %}{% endblock %}
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
