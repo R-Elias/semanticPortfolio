@@ -150,7 +150,7 @@
                     <xsl:otherwise>额外视频</xsl:otherwise>
                 </xsl:choose>
             </h2>
-            <div style="text-align: center;">
+            <div style="text-align: center;" typeof="schema:VideoObject">
                 <video width="600" controls="controls">
                     <xsl:choose>
                         <xsl:when test="$lang = 'fr'">
@@ -176,12 +176,50 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </video>
+                <xsl:element name="meta">
+                    <xsl:attribute name="property">schema:name</xsl:attribute>
+                    <xsl:attribute name="content">
+                        <xsl:choose>
+                            <xsl:when test="$lang = 'fr'">Vidéo bonus</xsl:when>
+                            <xsl:when test="$lang = 'en'">Bonus Video</xsl:when>
+                            <xsl:otherwise>额外视频</xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
+                </xsl:element>
+                <xsl:choose>
+                    <xsl:when test="$lang = 'fr'">
+                        <xsl:element name="meta">
+                            <xsl:attribute name="property">schema:description</xsl:attribute>
+                            <xsl:attribute name="content">Vidéo bonus en français</xsl:attribute>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="$lang = 'en'">
+                        <xsl:element name="meta">
+                            <xsl:attribute name="property">schema:description</xsl:attribute>
+                            <xsl:attribute name="content">Bonus video in English</xsl:attribute>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:element name="meta">
+                            <xsl:attribute name="property">schema:description</xsl:attribute>
+                            <xsl:attribute name="content">额外视频</xsl:attribute>
+                        </xsl:element>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:element name="meta">
+                    <xsl:attribute name="property">schema:contentUrl</xsl:attribute>
+                    <xsl:attribute name="content">
+                        <xsl:choose>
+                            <xsl:when test="$lang = 'fr'">../static/vid/Bing_Chilling_fr.mp4</xsl:when>
+                            <xsl:when test="$lang = 'en'">../static/vid/Bing_Chilling_en.mp4</xsl:when>
+                            <xsl:otherwise>../static/vid/Bing_Chilling_zh.mp4</xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
+                </xsl:element>
             </div>
         </div>
 
 
-
-        
         <div style="width: 100%; background-color: #f1f1f1; padding: 10px 0; position: fixed; bottom: 0; left: 0; text-align: center; border-top: 1px solid #ccc;" typeof="CreativeWork">
             <p style="margin: 0;" property="copyrightHolder" typeof="Person">
                 <xsl:choose>

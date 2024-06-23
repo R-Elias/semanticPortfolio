@@ -10,24 +10,51 @@
         </personal>
         <experience>
             <job>
-                <title>Kangaroo Breeder</title>
-                <company>Kangaroos &amp; Co.</company>
-                <years>2019-2025</years>
-                <description>Imaginary Professional Boxer</description>
+                <title>Full-Stack Developer (Apprenticeship)</title>
+                <company>Lineberty, Paris</company>
+                <years>09/2022 - Present</years>
+                <description>Developing and maintaining microservices, APIs, and Angular applications.</description>
+            </job>
+            <job>
+                <title>Research Intern in AI &amp; NLP</title>
+                <company>LIPN, Paris</company>
+                <years>05/2022 - 07/2022</years>
+                <description>Fine-tuning LLMs (BERT) for classification tasks, data preprocessing, and visualization.</description>
+            </job>
+            <job>
+                <title>Tutor in Programming and Algebra</title>
+                <company>Université Sorbonne Paris Nord, Paris</company>
+                <years>09/2021 - 05/2022</years>
+                <description>Teaching programming and algebra fundamentals, developing teaching tools.</description>
+            </job>
+            <job>
+                <title>Personal Project Developer</title>
+                <company>dev QS</company>
+                <years>12/2023 - Present</years>
+                <description>Developing a community platform and job board dedicated to developers.</description>
             </job>
         </experience>
         <education>
             <degree>
-                <title>Bachelor in Australian Boxing</title>
-                <institution>University of Non-Violent Boxing, Canberra</institution>
-                <years>2017-2019</years>
+                <title>Engineering Degree in Computer Science</title>
+                <institution>Sup Galilée, Université Sorbonne Paris Nord</institution>
+                <years>2022-2025</years>
+            </degree>
+            <degree>
+                <title>Bachelor's Degree in Computer Science</title>
+                <institution>Université Sorbonne Paris Nord</institution>
+                <years>2019-2022</years>
             </degree>
         </education>
         <skills>
-            <skill>Non-Violent Boxing</skill>
-            <skill>Violent Boxing</skill>
-            <skill>KFC Nugget Boxing</skill>
-            <skill>Freebox Repair</skill>
+            <skill>JavaScript, TypeScript</skill>
+            <skill>Node.js, Express, Nest.js</skill>
+            <skill>Angular, HTML, CSS</skill>
+            <skill>Docker, GitHub Actions, CircleCI</skill>
+            <skill>Python (advanced)</skill>
+            <skill>Pandas, Seaborn, SciPy</skill>
+            <skill>PyTorch, Scikit-Learn, BERT, Transformers</skill>
+            <skill>PostgreSQL, Oracle SQL, MongoDB, Redis</skill>
         </skills>
     </resume>
     <!-- French Version -->
@@ -40,24 +67,51 @@
         </personal>
         <experience>
             <job>
-                <title>Eleveur de kangourous</title>
-                <company>Kangaroos &amp; Co.</company>
-                <years>2019-2025</years>
-                <description>Boxeur professionnel imaginaire</description>
+                <title>Développeur Full-Stack (contrat d'apprentissage)</title>
+                <company>Lineberty, Paris</company>
+                <years>09/2022 - Présent</years>
+                <description>Création et maintenance de microservices, APIs et applications Angular.</description>
+            </job>
+            <job>
+                <title>Stagiaire en recherche IA &amp; NLP</title>
+                <company>LIPN, Paris</company>
+                <years>05/2022 - 07/2022</years>
+                <description>Fine-tuning de LLMs (BERT) pour des tâches de classification, prétraitement et visualisation des données.</description>
+            </job>
+            <job>
+                <title>Tuteur en Programmation et Algèbre</title>
+                <company>Université Sorbonne Paris Nord, Paris</company>
+                <years>09/2021 - 05/2022</years>
+                <description>Enseignement des fondamentaux de la programmation et de l'algèbre, développement d'outils pédagogiques.</description>
+            </job>
+            <job>
+                <title>Développeur Projet Personnel</title>
+                <company>dev QS</company>
+                <years>12/2023 - Présent</years>
+                <description>Développement d'une plateforme communautaire et jobboard dédié aux développeurs.</description>
             </job>
         </experience>
         <education>
             <degree>
-                <title>Licence en boxe australienne</title>
-                <institution>Université de boxe non-violente de Canberra</institution>
-                <years>2017-2019</years>
+                <title>Formation d'Ingénieur en Informatique</title>
+                <institution>Sup Galilée, Université Sorbonne Paris Nord</institution>
+                <years>2022-2025</years>
+            </degree>
+            <degree>
+                <title>Licence en Informatique</title>
+                <institution>Université Sorbonne Paris Nord</institution>
+                <years>2019-2022</years>
             </degree>
         </education>
         <skills>
-            <skill>Boxe non-violente</skill>
-            <skill>Boxe violente</skill>
-            <skill>Box de nuggets de KFC</skill>
-            <skill>Réparation de Freebox</skill>
+            <skill>JavaScript, TypeScript</skill>
+            <skill>Node.js, Express, Nest.js</skill>
+            <skill>Angular, HTML, CSS</skill>
+            <skill>Docker, GitHub Actions, CircleCI</skill>
+            <skill>Python (avancé)</skill>
+            <skill>Pandas, Seaborn, SciPy</skill>
+            <skill>PyTorch, Scikit-Learn, BERT, Transformers</skill>
+            <skill>PostgreSQL, Oracle SQL, MongoDB, Redis</skill>
         </skills>
     </resume>
     <!-- Traditional Chinese Version -->
@@ -70,24 +124,51 @@
         </personal>
         <experience>
             <job>
-                <title>袋鼠飼養員</title>
-                <company>袋鼠與合夥人公司</company>
-                <years>2019-2025</years>
-                <description>想像中的職業拳擊手</description>
+                <title>全棧開發人員 (學徒)</title>
+                <company>Lineberty, Paris</company>
+                <years>2022年9月 - 至今</years>
+                <description>開發和維護微服務、API 和 Angular 應用程序。</description>
+            </job>
+            <job>
+                <title>人工智能和自然語言處理研究實習生</title>
+                <company>LIPN, Paris</company>
+                <years>2022年5月 - 2022年7月</years>
+                <description>微調 LLMs（BERT）以進行分類任務，數據預處理和可視化。</description>
+            </job>
+            <job>
+                <title>編程和代數導師</title>
+                <company>巴黎北索邦大學</company>
+                <years>2021年9月 - 2022年5月</years>
+                <description>教授編程和代數基礎知識，開發教學工具。</description>
+            </job>
+            <job>
+                <title>個人項目開發人員</title>
+                <company>dev QS</company>
+                <years>2023年12月 - 至今</years>
+                <description>開發一個專為開發人員設計的社區平台和招聘板。</description>
             </job>
         </experience>
         <education>
             <degree>
-                <title>澳洲拳擊學士</title>
-                <institution>堪培拉非暴力拳擊大學</institution>
-                <years>2017-2019</years>
+                <title>計算機科學工程學位</title>
+                <institution>Sup Galilée, 巴黎北索邦大學</institution>
+                <years>2022-2025</years>
+            </degree>
+            <degree>
+                <title>計算機科學學士學位</title>
+                <institution>巴黎北索邦大學</institution>
+                <years>2019-2022</years>
             </degree>
         </education>
         <skills>
-            <skill>非暴力拳擊</skill>
-            <skill>暴力拳擊</skill>
-            <skill>KFC雞塊盒</skill>
-            <skill>Freebox修理</skill>
+            <skill>JavaScript, TypeScript</skill>
+            <skill>Node.js, Express, Nest.js</skill>
+            <skill>Angular, HTML, CSS</skill>
+            <skill>Docker, GitHub Actions, CircleCI</skill>
+            <skill>Python（高級）</skill>
+            <skill>Pandas, Seaborn, SciPy</skill>
+            <skill>PyTorch, Scikit-Learn, BERT, Transformers</skill>
+            <skill>PostgreSQL, Oracle SQL, MongoDB, Redis</skill>
         </skills>
     </resume>
 </resumes>
